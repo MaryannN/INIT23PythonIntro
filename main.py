@@ -50,7 +50,5 @@ for i in range(5): #For I Loop
   while(fav_color.lower() not in accepted_color_list): 
     fav_color = input("BOOOOOOOO BAD COLOR!! Pick another one now: ")
   
-  print(f'Your name is {name}, you are {age} and your fav color is {fav_color}!') #f string
-  
-  
+  print(f'Your name is {name}, you are {age} and your fav color is {fav_color}!')
   
