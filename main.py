@@ -1,3 +1,5 @@
+import random
+
 # int
 # str
 # bool
@@ -8,17 +10,21 @@
 
 # stringHelloWorld --> CamelCase
 
-# Ver 1
+# '''
+# Print Hello World
+# '''
+
+## Ver 1
 # print("Hello World")
 
-# Ver 2
+## Ver 2
 # string_hello_world = "Hello World" #snake_case
 
-# Ver 3
+## Ver 3
 # strHello = input("What greeting would you like?: ")
 # print(strHello)
 
-#Print Types
+##Print Types
 #print("My name is "+name+ ", I am "+age+" and my fav color is "+fav_color) #concatination
 #print('My name is {}, I am {} and my fav color is {}!'.format(name,age,fav_color)) #str format
 #print(f'My name is {name}, I am {age} and my fav color is {fav_color}!') #f string
@@ -51,4 +57,8 @@ for i in range(5): #For I Loop
     fav_color = input("BOOOOOOOO BAD COLOR!! Pick another one now: ")
   
   print(f'Your name is {name}, you are {age} and your fav color is {fav_color}!')
-  
+
+
+
+randnum = random.randint(0,4)
+print(f'\nFrom the information given, I have decided that User {randnum} is BY FAR the best. No arguing cuz Im always right lol')
